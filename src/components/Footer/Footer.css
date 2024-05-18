@@ -1,0 +1,32 @@
+.footer{
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.footer>p{
+    font-family: "Outfit", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #EEE5FFB8;
+    background: none;
+    margin-left: 9%;
+    padding-top: 10px;
+}
+.footer>ul{
+    display: flex;
+    background: none;
+    list-style-type: none;
+    color: #EEE5FFB8;
+    transition: color 0.3s;
+    font-family: "OutFit";
+    margin-right: 9%;
+}
+.footer>ul>li{
+    color: #EEE5FFB8;
+    transition: color 0.3s; 
+    background: none;
+    margin: 10px;
+}

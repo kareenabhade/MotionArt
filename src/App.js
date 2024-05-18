@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Middle from './components/MiddleSection/Middle';
 import SupportedBy from './components/SupportedBy/SupportedBy';
 import Cards from './components/Cards/Cards';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -12,9 +13,9 @@ function App() {
       <Navbar />
       <Home />
       <Middle />
-              <Cards />
-
+      <Cards />
       <SupportedBy />
+      <Footer />
     </div>
   </>
   );
