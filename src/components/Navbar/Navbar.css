@@ -1,0 +1,40 @@
+.nav-container{
+    color: white;
+    background-color: #262626;
+    font-size: 12px;
+    height: 54px;
+    z-index: 100;
+    margin-bottom: 1px;
+    line-height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoImg{
+    top: 18px;
+    height: 18px;
+    width: 152px;
+    background-size: 152px 18px;
+    text-indent: -9999px;
+    background: none;
+    margin-left: 20px;
+}
+
+.buyNow{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 14px;
+    height: 33px;
+    background-color: #83B540;
+    z-index: 100;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+}
