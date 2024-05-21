@@ -21,7 +21,10 @@ const Middle = () => {
             <div>
             <h1>Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors</h1>
             <p>Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse your website with visually stunning motion art elements.</p>
-            <button className='purchase' >Purchase From Envato <FaArrowRightLong style={{background:"none", padding:'5px 15px 0px'}} /> </button>
+            <button className='purchase' >
+              <a href='https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891'>
+              Purchase From Envato <FaArrowRightLong style={{background:"none", padding:'5px 15px 0px'}} 
+              /> </a> </button>
             </div>
             <img src='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img5.png' />
         </section>

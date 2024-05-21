@@ -73,6 +73,10 @@
         color: white;
         cursor: pointer;
 }
+.purchase>a{
+    text-decoration: none;
+    color: white;
+}
 
 @media screen and (max-width: 1366px) {
     .section2>div>h1{
