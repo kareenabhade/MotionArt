@@ -9,8 +9,7 @@
 }
 
 .transparent-button {
-    background-color: white;
-    color: black;
+    color: white;
     padding: 14px 29px;
     border: 2px solid white;
     border-radius: 5px;
@@ -19,7 +18,13 @@
     width: 215.062px;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 600;
+    background: transparent;
     transition: background-color 0.3s ease;
+}
+
+.transparent-button>a{
+    text-decoration: none;
+    color: white;
 }
 
 .transparent-button:hover {
@@ -116,14 +121,14 @@
     margin: 8%;
 }
 
-@media screen and  (max-width: 1366px) {
+@media screen and  (max-width: 1400px) {
         .introHeading{ 
-            font-size: 55px;
+            font-size: 50px;
             line-height: 75px;
             margin-bottom: 0px;
         }
         .sec2>p>span{
-            font-size: 55px;
+            font-size: 50px;
             line-height: 75px;
             margin-top: 0px;
         }
@@ -132,19 +137,18 @@
             padding-right: 0px;
         }
         .sec3{
-            margin: 2%;
+            margin: 0%;
         }
         .intro{
             height: 300px;
         }
-
         .sec2>p{
-            margin-top: 20px;
+            margin-top: 0px;
         }
      
      }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1360px) {
     .Home{
         margin: 0% 3%;
     }
@@ -187,10 +191,6 @@
         height: 350px;
         width: 100%;
         align-items: center;
-    }
-    .transparent-button{
-        display: flex;
-        margin-left: 20px;
     }
     .nav2{
         justify-content:flex-start;

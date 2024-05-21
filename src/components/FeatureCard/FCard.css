@@ -35,3 +35,15 @@
         line-height: 30px;
         margin: 0px 0px 0px 0px;
 }
+
+@media screen and (max-width:1024px) {
+    .fcard {
+       
+    }
+}
+
+@media screen and (max-width:767px) {
+    .fcard{
+        width: 100%;
+    }
+}

@@ -8,17 +8,15 @@ import SupportedBy from '../SupportedBy/SupportedBy';
 const Middle = () => {
   return (
     <>
-    <div style={{display:'flex', flexDirection:'column'}} >
-    <div className='middle'  >
-        <div>
+    <section style={{display:'flex', flexDirection:'column'}} >
+      <section className='middle'  >
         <p className='middleHeading' >Trusted by thousands of users around the world</p>
         <section className='section' >
             <Star img='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img2.png' />
             <Star img='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img1.png' />
             <Star img='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img3.png'/>
         </section>
-        </div>
-        <div>
+      
         <section className='section2'>
             <div>
             <h1>Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors</h1>
@@ -27,9 +25,9 @@ const Middle = () => {
             </div>
             <img src='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img5.png' />
         </section>
-        </div>
-    </div>
-    </div>
+      </section>
+      <Cards />
+    </section>
   </>
   )
 }

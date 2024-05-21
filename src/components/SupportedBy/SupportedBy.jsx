@@ -15,11 +15,11 @@ const SupportedBy = () => {
       <p>Whether you're a seasoned web designer or just starting out, Motion Art for Elementor seamlessly integrates with the Elementor platform, providing you with a seamless and intuitive experience.</p>
     </section>
     <section className='main4' >
-       <FCard img='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img9.png' heading='Light Weight'
+       <FCard img='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img9.png' heading='Light Weight' id='fcard1'
               content='Motion Art for Elementor is designed to be lightweight.' />
-       <FCard img='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img6.png' heading='100% Responsive'
+       <FCard img='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img6.png' heading='100% Responsive' id='fcard2'
               content='Create a consistent visual experience across all devices.' />
-       <FCard img='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img7.png' heading='User Friendly Interface'
+       <FCard img='https://qodematrix.com/wp-content/uploads/2023/10/motionarteffect-img7.png' heading='User Friendly Interface' id='fcard3'
               content='Ensure a smooth experience for both applicants and administrators.' />
     </section>
   </div>

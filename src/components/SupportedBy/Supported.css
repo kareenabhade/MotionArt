@@ -76,4 +76,27 @@
     display: flex;
     justify-content: space-between;
     margin: 0% 9% 100px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1366px) {
+    .main3>h2{
+        font-size: 35px;
+        line-height: 55px;
+    }
+    .main3{
+        margin-right:5%;
+        margin-left: 5%;
+        width: 100%;
+    }
+    .main4{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .main4 {
+        flex-wrap: wrap;
+    }
 }
